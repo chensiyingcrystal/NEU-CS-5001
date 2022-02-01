@@ -13,3 +13,5 @@
 """Describe and use std conventions for naming variables and writing code"""
 
 """Define a Boolean expresstion and understand its use"""
+# question:  is, python's location
+# compare: use unicode for character comparing
