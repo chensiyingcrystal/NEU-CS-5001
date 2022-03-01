@@ -13,3 +13,6 @@
 # mutable objects passed to a function can be modified by item assignment within the function
 # when you want to change the tuple items, python will raise a TypeError
 # 'tuple' object does not support item assignment
+# mutable object passed as an argument into a function, may be subject to side effcts
+# assigning a new value to a function's formal parameter does not change the argument itself
+# adding/deletng/modifying elements of a formal parameter does change teh argument
