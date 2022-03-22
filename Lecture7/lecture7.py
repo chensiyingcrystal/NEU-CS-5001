@@ -1,3 +1,7 @@
+"""recursive: 
+base case
+leap of faith"""
+
 """write an iterative and a recursive function for calculating factorial of n"""
 def n_rec_fact(n):
     if (n < 2):
