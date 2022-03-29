@@ -17,5 +17,16 @@ end-user keyboard input"""
 """try/except"""
 
 """handling I/O error"""
+FileNotFoundError()
+PermissionError()
+OSError()
+
+try:
+    with open('too.txt', 'r') as f:
+        #process content
+    except IOError as ex:
+        print("An Unexpected IOError occurred opening ")
+
+
 
 
