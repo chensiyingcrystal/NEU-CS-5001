@@ -14,5 +14,8 @@ end-user keyboard input"""
 
 """produce informative error messages"""
 
+"""try/except"""
+
+"""handling I/O error"""
 
 
