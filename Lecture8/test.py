@@ -39,7 +39,7 @@ def get_slices(pies, folks):
 def main():
     try:
         pizzas = int(input("How many pizzas did you order? "))
-        people = input("How many people are there? ")
+        people = int(input("How many people are there? "))
         slices = get_slices(pizzas, people)
         print(pizzas, "pizzas split", people,
               "ways is", slices, "slices each")
@@ -49,6 +49,18 @@ def main():
     except ValueError as ex:
         print("Invalid value:", type(ex), ex)
 
+
+main()
+
+"""collecting data, applying exceptions"""
+def main():
+    filename = input("Enter filename: ")
+    file = open(filename, "w")
+
+    number = int(input("Enter weight (or -1 to quit): "))
+    while number != -1:
+        file.write(str(number))
+        number = int(input("Enter weight (or -1 to quit)"))
 
 main()
 
