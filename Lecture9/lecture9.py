@@ -55,3 +55,60 @@ subset <="""
 Set can be useful in math and logical case
 Dictionaries workd especially well with JSON "light database" files
 stack frames can be thought of as a dictionary of identifier bindings"""
+"""Highlighting these in final project is encouraged"""
+
+import json
+ 
+# # list conversion to Array
+# print(json.dumps(['Welcome', "to", "GeeksforGeeks"]))
+ 
+# # tuple conversion to Array
+# print(json.dumps(("Welcome", "to", "GeeksforGeeks")))
+ 
+# # string conversion to String
+# print(json.dumps("Hi"))
+ 
+# # int conversion to Number
+# print(json.dumps(123))
+ 
+# # float conversion to Number
+# print(json.dumps(23.572))
+ 
+# # Boolean conversion to their respective values
+# print(json.dumps(True))
+# print(json.dumps(False))
+ 
+# # None value to null
+# print(json.dumps(None))
+
+# var = {
+#       "Subjects": {
+#                   "Maths":85,
+#                   "Physics":90
+#                    }
+#       }
+
+# with open("sample.json", "w") as p:
+#     json.dump(var, p)
+
+# with open("Sample.json", "r") as read_it:
+#      data = json.load(read_it)
+    
+# print(data)
+# print(type(data))
+
+json_var ="""
+{
+    "Country": {
+        "name": "INDIA",
+        "Languages_spoken": [
+            {
+                "names": ["Hindi", "English", "Bengali", "Telugu"]
+            }
+        ]
+    }
+}
+"""
+var = json.loads(json_var)
+print(var)
+print(type(var))
