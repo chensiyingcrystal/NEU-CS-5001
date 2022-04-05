@@ -16,3 +16,6 @@ Set: math sets concept to organize data"""
 
 # 'A' in dic // to check if the key is in the dictionary
 # This will return True
+
+# modify/add the key's value // dict[key] = value
+# delete an element // del dict[key]
