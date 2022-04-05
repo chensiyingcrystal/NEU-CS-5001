@@ -26,3 +26,16 @@ Set: math sets concept to organize data"""
 # dict.items()
 # for key_val_pair in dict.items():
     # print key_val_pair
+# or// for key, value in dict.items():
+
+
+"""Set in python
+unordered collection of distinct members # a set of keys
+# items must be immutable
+# order does not matter
+# items must be unique"""
+
+"""To make an empty set
+my_set = {}  # this is an empty dictionary
+my_set = set()  # this is an empty set"""
+
