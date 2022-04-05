@@ -39,6 +39,19 @@ unordered collection of distinct members # a set of keys
 my_set = {}  # this is an empty dictionary
 my_set = set()  # this is an empty set"""
 
+# initialize: my_set = {1, 2, 3}
 # add elements: my_set.add('xyz')
 # delete elements: my_set.remove('xyz')
 
+"""Using sets in python
+union |
+intersection &
+difference -
+subset <="""
+
+"""Using JSON in python"""
+
+"""Programs = Algorithms + Data Structures
+Set can be useful in math and logical case
+Dictionaries workd especially well with JSON "light database" files
+stack frames can be thought of as a dictionary of identifier bindings"""
