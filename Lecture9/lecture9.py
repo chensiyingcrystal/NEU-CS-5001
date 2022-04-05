@@ -17,7 +17,7 @@ Set: math sets concept to organize data"""
 # 'A' in dic // to check if the key is in the dictionary
 # This will return True
 
-# modify/add the key's value // dict[key] = value
+# modify/add the key's value // dict[key] = value // adding by assigning
 # delete an element // del dict[key]
 
 # iterate over a dictionary
@@ -38,4 +38,7 @@ unordered collection of distinct members # a set of keys
 """To make an empty set
 my_set = {}  # this is an empty dictionary
 my_set = set()  # this is an empty set"""
+
+# add elements: my_set.add('xyz')
+# delete elements: my_set.remove('xyz')
 
