@@ -19,3 +19,10 @@ Set: math sets concept to organize data"""
 
 # modify/add the key's value // dict[key] = value
 # delete an element // del dict[key]
+
+# iterate over a dictionary
+# for key in dict:
+# items method returns an object that can be iterated over like a for loop
+# dict.items()
+# for key_val_pair in dict.items():
+    # print key_val_pair
