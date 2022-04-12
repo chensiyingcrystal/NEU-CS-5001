@@ -14,3 +14,12 @@ def __str__(self):
     output = 
     return output
 """
+# call the method: variable name for the object.__str__()
+
+# unittest.TestCase
+
+# oop: a great way of abstraction - the key to managing complexity in most of CS
+# inheritance is another tool to manage complexity, reducing repetitive code
+# by abstracting shared attributes and methods to a parent class
+# unittest.TestCase: how objects and inheritance can save us from 
+# writing a lot of redundant testing code
